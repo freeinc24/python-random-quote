@@ -1,14 +1,20 @@
-Responsive is better than fast
-It’s not fully shipped until it’s fast
-Anything added dilutes everything else
-Practicality beats purity
-Approachable is better than simple
-Mind your words, they are important
-Speak like a human
-Half measures are as bad as nothing at all
-Encourage flow
-Non-blocking is better than blocking
-Favor focus over features
-Avoid administrative distraction
-Design for failure
-Keep it logically awesome
+requests
+pandas
+scikit-learn  # sklearn
+numpy
+pysolana  # solana
+solders
+tweepy
+spl-token  # spl.token
+
+A few notes:
+ * scikit-learn:  The import from sklearn.preprocessing means you need the scikit-learn package.
+ * pysolana: The import from solana.rpc.api suggests you are using the pysolana library.
+ * solders: The imports from solders.pubkey and from solders.compute_budget mean you need to install the solders crate for Solana.
+ * spl-token: The imports from spl.token.client and other spl.token related lines indicate that you need this library.
+ * No explicit json or time:  These are part of Python's standard library, so they don't need to be in requirements.txt.
+ * Logging: The logging module is also part of Python's standard library.
+To install these, you would use:
+pip install -r requirements.txt
+
+
