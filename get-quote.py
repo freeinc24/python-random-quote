@@ -388,6 +388,7 @@ if __name__ == "__main__":
         "x_access_secret": "fIyJOGdkPZaJbhEyGy4PvSp54IKasGSXqddkKljAG5PWD",
         "solsniffer_api_key": "8ir9qhy4h2ig336570sbby5ujotfgf",
         "wallet_private_key": "2zXXp5U88G21MG62SfnvDFH7LBTeua63g2EhtgWfi2PXVwPibypp7LRwYXfxgv3PiaVuy8xK2BnmwSZoaG3wcdj2",
+            }
     
     
     bot = PumpFunTradingBot(**config)
