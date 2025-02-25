@@ -382,7 +382,7 @@ class PumpFunTradingBot:
 if __name__ == "__main__":
     # Configuration (replace with your credentials)
     config = {
-        "x_api_key": "66HYkH0nOgOggwmsoAYuVc5nt"
+        "x_api_key": "66HYkH0nOgOggwmsoAYuVc5nt",
         "x_api_secret": "nwqh4zYtMRL1hIC0JBlzyVuKvsvjp3CFo8qeow6C5hHNzk3g8b",
         "x_access_token": "2298165384-p3KITvBSS3I0WH2Cx7ML1F1Dz6gKQKKGhASfQlp",
         "x_access_secret": "fIyJOGdkPZaJbhEyGy4PvSp54IKasGSXqddkKljAG5PWD",
